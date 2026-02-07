@@ -1,0 +1,64 @@
+.howitworks-container {
+    padding: 80px 20px;
+    background: #f9f7ff;
+  }
+  
+  .howitworks-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .howitworks-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2b2b2b;
+    margin-bottom: 12px;
+  }
+  
+  .howitworks-subtitle {
+    font-size: 1rem;
+    color: #666;
+    max-width: 650px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+  }
+  
+  .howitworks-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 28px;
+  }
+  
+  .step-card {
+    background: #ffffff;
+    padding: 32px 24px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .step-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+  }
+  
+  .step-card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 18px;
+  }
+  
+  .step-card h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .step-card p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
